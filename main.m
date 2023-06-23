@@ -25,9 +25,9 @@ InputSequnce = DecodeAMI(w, NoOfSamples)
 
 
 
-% Step 5: Display the decoded sequence
+% Display the decoded sequence
 nexttile
-time = 0:length(InputSequnce)-1;  % Generate time axis based on the length of the sequence
+time = 0:length(InputSequnce)-1;  
 plot(time, InputSequnce);
 xlabel('Time');
 ylabel('Amplitude');
